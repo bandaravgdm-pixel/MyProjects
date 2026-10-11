@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+  <h1>Checkout</h1>
+  <section>
+    <h2>Your Cart</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYvOa90G_Vzshp_4QipUd07WhugtG6vvly_ODQ6_nf5w&s=10" alt="Blue colour panasonic rice cooker">
+
+    <p>Panasonic Rice cooker</p>
+    <p>Price:LKR 28,900.00</p>
+  </section>
+  <section>
+    <form>
+    <h2>Payment Information</h2>
+    <label for="card-name">Credit holder's Name <span aria-hidden="true">*</span></label>
+    <input type="text" id="card-name" name="card-name" required>
+
+    <label for="card-number">Credit Card Number<span aria-hidden="true">*</span></label>
+    <input type="text" id="card-number" name="card-number" required aria-describedby="card-number-help">
+    <p id="card-number-help">Enter 16-digit Number</p>
+
+    <label for="date">Expire Date<span aria-hidden="true">*</span></label>
+    <input type="text" id="date" name="date">
+
+    <label for="cvv">CVV<span aria-hidden="true">*</span></label>
+    <input type="text" id="cvv" name="cvv">
+
+    <button id="submit" name="submit">Submit</button>
+    </form>
+  </section>
+</body>
+
+</html>
